@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        JavaScript Alarm Clock
+    </title>
+    <meta charset="UTF-8">
+    <!--allows application to be easily viewd on multiple platforms-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--page can be rendered in edge and chrome (it's more updated)-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
+    <link href="alarm.css" rel="stylesheet" type="text/css">
+    <script src="alarm.js"></script>
+</head>
+
+<body>
+    <!--Display the current time-->
+    <div id="currentTime">
+        <h2 id="Clock"></h2>
+    </div>
+    <!--Set Alarm Time-->
+    <div id="setAlarm">
+        <input type="datetime-local" id="alarmTime" ;/>
+        <button onclick="setAlarm(this);" id="alarmButton">Set Alarm</button>
+    </div>
+
+</body>
+
+</html>
